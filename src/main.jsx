@@ -1,7 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
-import myPhoto from "/assets/photo_5307553742557226562_y.jpg";
+import myPhoto from "./assets/photo_5307553742557226562_y.jpg";
 const profile = {
   name: "Alan",
   role: "Computer Science Student & ML Engineer",
