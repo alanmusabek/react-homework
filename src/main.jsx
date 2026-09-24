@@ -42,7 +42,7 @@ function Hero() {
         <div className="glow"></div>
         <img
           className="portrait"
-          src={myPhoto}
+          src="https://github.com/alanmusabek/react-homework/blob/main/img/photo_5307553742557226562_y.jpg"
           alt="Professional portrait"
         />
         <div className="floating-card">
