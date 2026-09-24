@@ -1,7 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
-
+import myPhoto from "./img/photo_5307553742557226562_y.jpg"
 const profile = {
   name: "Alan",
   role: "Computer Science Student & ML Engineer",
@@ -42,7 +42,7 @@ function Hero() {
         <div className="glow"></div>
         <img
           className="portrait"
-          src="C:\Reacts\HomeworkTwo\versions\version3\img\photo_5307553742557226562_y.jpg"
+          src={myPhoto}
           alt="Professional portrait"
         />
         <div className="floating-card">
